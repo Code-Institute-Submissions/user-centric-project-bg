@@ -2,6 +2,10 @@
 
 /*-----------------------------------------------Colors*/
 
+.bg-color {
+    background-color: #c289aa60;
+    max-height: 240px;
+}
 
 /*-----------------------------------------------Heading*/
 
@@ -20,3 +24,15 @@ header {
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    margin: 50px 0 0 50px;
+    color: rgb(141, 6, 252);
+}
+
+
+
+   

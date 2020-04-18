@@ -138,3 +138,11 @@ footer {
 .social-links li a i:hover {
     background: rgb(57, 60, 245);
 }
+
+#footer-details {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 25px;
+    color: #fff;
+}

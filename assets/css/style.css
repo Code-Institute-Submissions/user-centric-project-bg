@@ -44,7 +44,7 @@ header {
 .name {
     font-family: "Exo", sans-serif;
     font-weight: 200;
-    font-size: 40px;
+    font-size: 30px;
     min-height: 240px;
     margin: 70px 0 0 50px;
     color: #fff;
@@ -87,7 +87,7 @@ header {
     font-size: 25px;
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 25px;
@@ -98,4 +98,43 @@ header {
     letter-spacing: 2.5px;
 }
 
+/*-----------------------------------------------Hover*/
+
+.hvr-sweep-to-right:before {
+    background: rgba(0, 0, 0,0.2);
+    height: 120px;
+}
    
+/*-----------------------------------------------Footer*/
+
+footer {
+    background-color: #cc2888b0;
+    color: #fff;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+.social-links {
+    padding-bottom: 25px;
+}
+
+.social-links li a i {
+    width: 30px;
+    height: 30px;
+    padding: 10px 0;
+    border-radius: 30px;
+    font-size: 13px;
+    line-height: 5px;
+    text-align: center;
+    color: #fff;
+    background: #cc2888b0;
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgb(57, 60, 245);
+}

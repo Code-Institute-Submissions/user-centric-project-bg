@@ -169,4 +169,20 @@ footer {
     margin-bottom: 20px;
 }
 
+/*-----------------------------------------------Section*/
 
+.appointment {
+    background: url("../images/appointment.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}
+
+.prescription {
+    background: url("../images/prescription.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+}

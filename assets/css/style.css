@@ -51,7 +51,7 @@ header {
     font-weight: 200;
     font-size: 30px;
     min-height: 240px;
-    margin: 70px 0 0 50px;
+    padding: 100px 0 0 20px;
     color: #fff;
 }
 
@@ -133,7 +133,7 @@ footer {
     line-height: 5px;
     text-align: center;
     color: #fff;
-    background: #cc2888b0;
+    background: rgb(172, 8, 63);
     transition: all 0.25s ease-in-out;
     -moz-transition: all 0.25s ease-in-out;
     -webkit-transition: all 0.25s ease-in-out;
@@ -158,3 +158,13 @@ footer {
     font-size: 15px;
     color:  rgb(59, 7, 143);
 }
+
+.great-place-to-work {
+    background: url("../images/great-place-to-work.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60px;
+    min-height: 120px;
+}
+
+

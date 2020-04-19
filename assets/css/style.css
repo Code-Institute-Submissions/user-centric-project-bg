@@ -156,6 +156,7 @@ footer {
     display: block;
     font-weight: 600;
     font-size: 15px;
+    margin-left: 10px;
     color:  rgb(59, 7, 143);
 }
 
@@ -165,6 +166,7 @@ footer {
     background-repeat: no-repeat;
     background-size: 60px;
     min-height: 120px;
+    margin-bottom: 20px;
 }
 
 

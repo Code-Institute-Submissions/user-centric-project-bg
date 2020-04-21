@@ -218,20 +218,6 @@ footer {
     color:  rgb(172, 8, 63);
 }
 
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-    color:  rgb(59, 7, 143);;
-}
-
-button[type="submit"] {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    color: #fff;
-    background-color: rgb(172, 8, 63);
-}
-
 /*-----------------------------------------------Section-Prescription*/
 
 .prescription {
@@ -240,6 +226,32 @@ button[type="submit"] {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
+}
+
+.prescription-section {
+    font-family: "Exo", sans-serif;
+    display: block;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0 0 40px;
+    color:  rgb(5, 145, 40);
+}
+
+/*-----------------------------------------------General Section*/
+
+.center-form {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    max-width: 70%;
+    color:  rgb(59, 7, 143);
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgb(59, 7, 143);
 }
 
 /*-----------------------------------------------Media Queries*/

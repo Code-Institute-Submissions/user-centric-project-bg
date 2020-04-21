@@ -207,16 +207,16 @@ footer {
     min-height: 360px;
 }
 
-.form-details {
+.appt-section {
     display: block;
     font-weight: 400;
     font-size: 15px;
     padding: 20px;
-    color:  rgb(59, 7, 143);
+    color:  rgb(172, 8, 63);
 }
 
 .center-form {
-    padding-top: 25px;
+    padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
 }
@@ -225,6 +225,8 @@ button[type="submit"] {
     margin-top: 10px;
     margin-bottom: 10px;
     color: rgb(172, 8, 63);
+    background-color: #fff;
+}
 
 /*-----------------------------------------------Section-Prescription*/
 

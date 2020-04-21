@@ -175,6 +175,7 @@ footer {
 /*-----------------------------------------------Section-Home*/
 
 .about-us-section {
+    font-family: "Exo", sans-serif;
     display: block;
     font-weight: 400;
     font-size: 15px;
@@ -183,6 +184,7 @@ footer {
 }
 
 .home-section {
+    font-family: "Exo", sans-serif;
     display: inline-block;
     font-weight: 400;
     font-size: 15px;
@@ -208,10 +210,11 @@ footer {
 }
 
 .appt-section {
+    font-family: "Exo", sans-serif;
     display: block;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
-    padding: 20px;
+    padding: 20px 0 0 40px;
     color:  rgb(172, 8, 63);
 }
 
@@ -219,13 +222,14 @@ footer {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    color:  rgb(59, 7, 143);;
 }
 
 button[type="submit"] {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: rgb(172, 8, 63);
-    background-color: #fff;
+    color: #fff;
+    background-color: rgb(172, 8, 63);
 }
 
 /*-----------------------------------------------Section-Prescription*/

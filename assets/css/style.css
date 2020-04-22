@@ -219,7 +219,7 @@ footer {
     display: block;
     font-weight: 600;
     font-size: 15px;
-    padding: 20px 0 0 40px;
+    padding: 20px;
     color:  rgb(172, 8, 63);
 }
 
@@ -238,7 +238,7 @@ footer {
     display: block;
     font-weight: 600;
     font-size: 15px;
-    padding: 10px 0 0 40px;
+    padding: 20px;
     color:  rgb(5, 145, 40);
 }
 
@@ -252,10 +252,10 @@ footer {
     min-height: 360px;
 }
 
-.sigin-section {
+.signin-section {
     font-family: "Exo", sans-serif;
     display: block;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 15px;
     padding: 20px;
     color:  rgb(59, 7, 143);

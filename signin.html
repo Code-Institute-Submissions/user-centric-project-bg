@@ -40,7 +40,7 @@
 							</li>
 							<li class="col-6 col-sm-3 ui-menu-color-signin list-inline-item menuitem">
 								<a href="signin.html"
-									class="active hvr-sweep-to-right"><i class="fa fa-sign-in" aria-hidden="true"></i><span>Sign In/Sign Up</span></a>
+									class="active hvr-sweep-to-right"><i class="fa fa-sign-in" aria-hidden="true"></i><span>Sign In</span></a>
 							</li>
 						</ul>
 					</div>
@@ -50,25 +50,57 @@
 	</header>
 	<section class="container-fluid">
 		<div class="row">
-			<div class="col-md-4 signup bg-color-signup">
-				<div class="row">
-					<div class="col-12">
-						<h4>About Us!</h4>
-					</div>
-					<div class="col-12">
-						<h5>Our Goal</h5>
-						<p>Is to provide an unique service for patients and to alleviate the time it takes to make GP
-							appointments and order / collect prescriptions.</p>
-					</div>
-					<div class="col-12">
-						<h5>Mission Statement</h5>				
-                        <p>Make life easier for all patients and continue to offer online self-service solutions that
-							sets us apart from all other companies.</p>
-					</div>
-				</div>
+			<a href="#" class="col-md-4 d-none d-lg-block signin"></a>
+			<div class="col-sm-8 signin-section">
+                <div class="row">
+				<h5 class="signin-section mx-auto">Sign In to your Account!</h5>
 			</div>
-			<div class="col-md-8 signin">
-				<div class="row">
+			<div class="center-form">
+				<form>
+					<div class="form-group row">
+						<label for="fullname" class="col-sm-3 col-form-label">Name:</label>
+						<div class="col-sm-9">
+							<input type="text" name="name" id="fullname" class="form-control" placeholder="enter full name" required>
+                        </div>
+					</div>
+					<div class="form-group row">
+						<label for="date-of-birth" class="col-sm-3 col-form-label">DOB:</label>
+						<div class="col-sm-9">
+							<input type="date" name="dob" id="date-of-birth" class="form-control" placeholder="enter date of birth" required>
+                        </div>
+					</div>
+					<div class="form-group row">
+						<label for="gp-practice-name" class="col-sm-3 col-form-label">GP Practice Name:</label>
+						<div class="col-sm-9">
+							<input type="text" name="gp practice name" id="gp-practice-name" class="form-control" required>
+                        </div>
+					</div>
+					<div class="form-group row">
+						<label for="gp-name" class="col-sm-3 col-form-label">GP Name:</label>
+						<div class="col-sm-9">
+	    					<input type="text" name="gp name" id="gp-name" class="form-control" placeholder="enter GP full name" required>
+                        </div>
+					</div>
+					<div class="form-group row">
+						<label for="date" class="col-sm-3 col-form-label">Date:</label>
+						<div class="col-sm-9">
+					    	<input type="date" name="date" id="date" class="form-control" required>
+                        </div>
+					</div>
+					<div class="form-group row">
+                    	<label for="time" class="col-sm-3 col-form-label">Time:</label>
+                        <div class="col-sm-9">
+							<input type="time" name="time" id="time" class="form-control" required>
+                        </div>
+					</div>
+					<div class="row appt-button">
+					    <div class="col">
+							<button type="submit" class="btn btn-primary">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
 	</section>
 	<footer class="container-fluid">
 		<div class="row" id="footer-details">

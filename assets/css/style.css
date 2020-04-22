@@ -25,6 +25,11 @@
 .bg-color-about-us {
     background-color: #ebc7dcb0;
 }
+
+.bg-color-signup {
+    background-color: #ebc7dcb0;
+}
+
 /*-----------------------------------------------Special Text*/
 
 .inline-block {
@@ -236,6 +241,27 @@ footer {
     padding: 10px 0 0 40px;
     color:  rgb(5, 145, 40);
 }
+
+/*-----------------------------------------------Section-SignUp*/
+
+.signup {
+    font-family: "Exo", sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px;
+    color:  rgb(59, 7, 143);
+}
+
+.signin {
+    font-family: "Exo", sans-serif;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px;
+    color:  rgb(59, 7, 143);
+}
+
 
 /*-----------------------------------------------General Section*/
 

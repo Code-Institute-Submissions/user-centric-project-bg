@@ -7,8 +7,8 @@ It will provide a platform to rollout additional enhancements in the near future
 
 ##UX
 This website is for everyone and especially patients who attend their GP on a regular basis. These patients will also have their medicine prescribed on a <frequency> basis. Patients nowadays use alot of different devices and are very comforable carrying out various activities online. Users want a positive experience when interacting online, they want not only an intuitive website but one that is easy to use and enjoyable. 
-User Stories: added to "include link"
-"Documents created as part of the 'Design Process': added to "include link"
+User Stories: added to "Design Folder"
+"Documents created as part of the 'Design Process': added to "Design Folder"
      -Milestone Project 
      -5 Planes
      -Prototype Mock Ups
@@ -43,7 +43,7 @@ Bootstrap framework used for its mobile first design and large library of preass
 CSS3 used to override Bootstrap defaults and to customise or make the site my own
 
 ##Testing
-Test Script: added to "include link"
+Test Script: added to "Design Folder"
 "Tests will be carried out after each iteration or sprint 
      and bugs will be fixed and retested
      and README.md file updated if required
@@ -54,7 +54,8 @@ Testing will be carried out in different devices and browsers
 ##Deployment
 Code will be deployed from GitPod to GitHub using the Git commands of git add / git commit / git push
      - moving from staging area to local repository to remote repository
-GitHub location - "include URL"
+GitHub location - https://e8540430-7163-4f6c-8882-c2c79bd95241.ws-eu01.gitpod.io/
+    [gallaghb/user-centric-project-bg]
 Code will be deployed to the live website using the publishing source of 'GitHub Pages'
 GitHub Pages location - "include URL"
 

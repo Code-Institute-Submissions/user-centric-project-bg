@@ -54,8 +54,7 @@ Testing will be carried out in different devices and browsers
 ##Deployment
 Code will be deployed from GitPod to GitHub using the Git commands of git add / git commit / git push
      - moving from staging area to local repository to remote repository
-GitHub location - https://e8540430-7163-4f6c-8882-c2c79bd95241.ws-eu01.gitpod.io/
-    [gallaghb/user-centric-project-bg]
+GitHub location - https://github.com/gallaghb/user-centric-project-bg.git
 Code will be deployed to the live website using the publishing source of 'GitHub Pages'
 GitHub Pages location - "include URL"
 

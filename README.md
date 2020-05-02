@@ -56,7 +56,7 @@ Code will be deployed from GitPod to GitHub using the Git commands of git add / 
      - moving from staging area to local repository to remote repository
 GitHub location - https://github.com/gallaghb/user-centric-project-bg.git
 Code will be deployed to the live website using the publishing source of 'GitHub Pages'
-GitHub Pages location - "include URL"
+GitHub Pages location - https://gallaghb.github.io/user-centric-project-bg/
 
 ##Content
 The text was not sourced from any other source or website, it was devised by me

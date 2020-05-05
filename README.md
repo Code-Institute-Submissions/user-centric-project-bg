@@ -5,7 +5,7 @@
 It will provide a platform to rollout additional enhancements in the near future.  <br/>This project was deployed to the live website using 'GH Pages' - https://gallaghb.github.io/user-centric-project-bg/
 
 ## UX
-This website is for everyone and especially patients who attend their GP on a regular basis. These patients will also have their medicine prescribed on a frequency basis. Patients nowadays use alot of different devices and are very comforable carrying out various activities online. Users want a positive experience when interacting online, they want not only an intuitive website but one that is easy to use and enjoyable. 
+This website is for everyone and especially patients who attend their GP on a regular basis. These patients will also have their medicine prescribed on a frequency basis. Patients nowadays use alot of different devices and are very comforable carrying out various activities online. Users want a positive experience when interacting online, they want not only an intuitive website but one that is easy to use and enjoyable.<br/>
 The list of User Stories are as follows:
 
     • As a User, I want to be able to navigate easily between menu items, so that I will want to return to this site as it's intuitive and easy to use
@@ -32,11 +32,11 @@ The list of User Stories are as follows:
      -Test Script   
 
 ## Features
-The Header and Footer will be consistent for all pages.
-    Home Page - will contain an 'About Us' section and summary of the key features of this website
-    Appointment Page - will display an image and a form to be completed
-    Prescription Page - will display an image and a form to be completed
-    Contact Us Page - will also display an image and a contact form
+The Header and Footer will be consistent for all pages.<br/>
+    Home Page - will contain an 'About Us' section and summary of the key features of this website<br/>
+    Appointment Page - will display an image and a form to be completed<br/>
+    Prescription Page - will display an image and a form to be completed<br/>
+    Contact Us Page - will also display an image and a contact form<br/>
 
 ## Existing Features
     • Feature 1 - clicking on the logo will bring you back to the homepage
@@ -48,34 +48,41 @@ The Header and Footer will be consistent for all pages.
     • Feature 7 - Sign In button on SignIn page - hover over button to change colour
 
 ### Features Left to Implement
-Sign In - once logged in you will have access to your scheduled appointments / status of prescription e.g. expires on dd/mm
-Link to GP Booking System - only show available appointments online in 'Patient Self-Service'
-Confirmation text/email/what's app message re 'Appointments'
-Reminder to patients <1> day prior to appointment 
-Confirmation text/email/what's app message from GP that 'Prescription' was sent to Pharmacy 
-Link up with Pharmacy
-Text/email/what's app message from pharmacy when 'Prescription' is ready for collection "
+• Sign In/SignUp - once logged in you will have access to your scheduled appointments / status of prescription e.g. expires on dd/mm<br/>
+• Link to GP Booking System - only show available appointments online in 'Patient Self-Service'<br/>
+• Confirmation text/email/what's app message re 'Appointments'<br/>
+• Reminder to patients <1> day prior to appointment<br/>
+• Confirmation text/email/what's app message from GP that 'Prescription' was sent to Pharmacy<br/>
+• Link up with Pharmacy<br/>
+• Text/email/what's app message from pharmacy when 'Prescription' is ready for collection<br/>
 
 ## Technologies Used
-"HTML5 used for the main structure of the Patient Self-Service website. Index.html contains the Header, Body & Footer elements.
-     Header & Footer replicated on appointment.html, prescription.html and signin.html
-Bootstrap framework used for its mobile first design and large library of preassembled and reusable CSS style / components. 
-     The following components were dropped into my project - nav / forms / buttons
-CSS3 used to override Bootstrap defaults and to customise or make the site my own
+##### HTML
+    Used for the main structure of the Patient Self-Service website.<br/>
+    Index.html contains the Header, Body & Footer elements.<br/>
+    Header & Footer replicated on appointment.html, prescription.html and signin.html<br/>
+##### CSS3
+    Used to override Bootstrap defaults and to customise or make the site my own
+##### Bootstrap
+    Framework used for its mobile first design and large library of preassembled and reusable CSS style / components.<br/>
+    The following components were dropped into my project - nav / forms / buttons<br/>
 
 ## Testing
-Test Script: added to "Design Folder"
-"Tests will be carried out after each iteration or sprint 
-     and bugs will be fixed and retested
-     and README.md file updated if required
-     and comments added/amended where necessary
-     and code saved to GitHub"
-Testing will be carried out in different devices and browsers
+Tests carried out after each iteration or sprint<br/>
+     and bugs will be fixed and retested<br/>
+     and README.md file updated if required<br/>
+     and comments added/amended where necessary<br/>
+     and code saved to GitHub"<br/>
 
-Logo	Click on logo 	You will be brought back to the homepage
+Testing carried out in different devices and browsers
+
+##### Logo
+    Click on logo 	You will be brought back to the homepage
 	Repeat above test on Page 2	As above
 	Repeat above test on Page 3	As above
-Nav Items	Hover over Home 	Home button changes colour 
+    Repeat above test on Page 4	As above
+##### Nav Items
+	Hover over Home 	Home button changes colour 
 	Hover over Appointment	Appointment button changes colour
 	Hover over Prescription	Prescription button changes colour
 	Hover over Contact Form	Sign In button changes colour
@@ -87,7 +94,9 @@ Nav Items	Hover over Home 	Home button changes colour
 	Check content + spellings	Content correct & spelling ok
 	Repeat above test on Page 2	As above
 	Repeat above test on Page 3	As above
-External Links	Click on HIA link	HIA website opens in a separate browser
+    Repeat above test on Page 4	As above
+##### External Links
+	Click on HIA link	HIA website opens in a separate browser
 	Click on Irish Life Health link	Irish Life Health website opens in a seperate browser
 	Click on VHI	VHI website opens in a separate browser
 	Click on Facebook	Facebook website opens in a separate browser
@@ -99,10 +108,13 @@ External Links	Click on HIA link	HIA website opens in a separate browser
 	Check content + spellings	Content correct & spelling ok
 	Repeat above test on Page 2	As above
 	Repeat above test on Page 3	As above
-Center-Home	About Us! - check content + spelling	Content correct & spelling ok
+    Repeat above test on Page 4	As above
+##### Center-Home
+	About Us! - check content + spelling	Content correct & spelling ok
 	Self-Service - check content + spelling	Content correct & spelling ok
 	Appointment - check content + spelling	Content correct & spelling ok
-Center-Appointment	Check Appointment Image	Image ok
+##### Center-Appointment
+	Check Appointment Image	Image ok
 	Check content + spellings	Content correct & spelling ok
 	Input full name	Test Pass
 	Input DOB	Test Pass
@@ -114,7 +126,8 @@ Center-Appointment	Check Appointment Image	Image ok
 	Do not enter details in 'required' fields	Error message 
 	Hover over Make Appointment button	Button changes colour
 	Click on Make Appointment button	Display message to user
-Center-Order Prescription	Check Prescription Image	Image ok
+##### Center-Order 
+    Prescription	Check Prescription Image	Image ok
 	Check content + spellings	Content correct & spelling ok
 	Input full name	Test Pass
 	Input DOB	Test Pass
@@ -124,12 +137,14 @@ Center-Order Prescription	Check Prescription Image	Image ok
 	Do not enter details in 'required' fields	Error message 
 	Hover over Order Now button	Button changes colour
 	Click on Order Now button	Display message to user
-User Stories	Review User Stories to ensure all user expectations are met	Test Pass
-Mobile	Test on Mobile	Test(s) pass
-Tablet	Test on Tablet	Test(s) pass
-Desktop / Laptop	Test on Desktop / Laptop	Test(s) pass
-Different Browsers	Test on different browsers	Test pass
-GitHub	Test on live Website	As above
+##### User Stories
+    Review User Stories to ensure all user expectations are met	Test Pass
+##### Other Tests
+    Mobile	Test on Mobile	Test(s) pass
+    Tablet	Test on Tablet	Test(s) pass
+    Desktop / Laptop	Test on Desktop / Laptop	Test(s) pass
+    Different Browsers	Test on different browsers	Test pass
+    GitHub	Test on live Website	As above
 
 ## Deployment
 Code will be deployed from GitPod to GitHub using the Git commands of git add / git commit / git push
@@ -142,7 +157,7 @@ GitHub Pages location - https://gallaghb.github.io/user-centric-project-bg/
 The text was not sourced from any other source or website, it was devised by me
 
 ## Media
-Logo - 'Logo Maker'
+Logo - 
 Appointment Image - 'Shutterstock'
 Prescription Image - 'Shutterstock'
 Contact Image - 'Shutterstock'

@@ -126,8 +126,8 @@ Testing carried out in different devices and browsers
 	Do not enter details in 'required' fields	Error message 
 	Hover over Make Appointment button	Button changes colour
 	Click on Make Appointment button	Display message to user
-##### Center-Order 
-    Prescription	Check Prescription Image	Image ok
+##### Center-Order Prescription
+    Check Prescription Image	Image ok
 	Check content + spellings	Content correct & spelling ok
 	Input full name	Test Pass
 	Input DOB	Test Pass
@@ -137,6 +137,14 @@ Testing carried out in different devices and browsers
 	Do not enter details in 'required' fields	Error message 
 	Hover over Order Now button	Button changes colour
 	Click on Order Now button	Display message to user
+##### Center-Contact Us
+    Validate Contact Us! details    Content ok
+    heck content + spellings	Content correct & spelling ok
+	Input email address Test Pass
+    Input fullname  Test Pass
+	Input message and check number of text rows Test Pass
+	Do not enter details in 'required' fields	Error message 
+	Hover over Submit button	Button changes colour
 ##### User Stories
     Review User Stories to ensure all user expectations are met	Test Pass
 ##### Other Tests

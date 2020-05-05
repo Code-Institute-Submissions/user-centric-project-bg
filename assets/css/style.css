@@ -239,17 +239,23 @@ footer {
     color:  rgb(5, 145, 40);
 }
 
-/*-----------------------------------------------Section-SignIn*/
+/*-----------------------------------------------Section-Contact-Us*/
 
-.signin {
-    background: url("../images/signin.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 240px;
+.contact-us-section {
+    font-family: "Exo", sans-serif;
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 50px;
+    min-height: 400px;
+    color:  rgb(59, 7, 143);
 }
 
-.signin-section {
+.contact-us-section li {
+    list-style: none;
+}
+
+.reach-out-section {
     font-family: "Exo", sans-serif;
     display: block;
     font-weight: 600;

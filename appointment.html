@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Patient Self-Service</title>
 </head>
+
 <body>
 	<header>
 		<div class="row no-gutters">
@@ -52,55 +54,55 @@
 		<div class="row">
 			<a href="#" class="col-md-4 d-none d-lg-block appointment"></a>
 			<div class="col-sm-8 appt-section">
-                <div class="row">
-				<h5 class="appt-header mx-auto">Schedule your GP Appointment!</h5>
+				<div class="row">
+					<h5 class="appt-header mx-auto">Schedule your GP Appointment!</h5>
+				</div>
+				<div class="center-form">
+					<form>
+						<div class="form-group row">
+							<label for="fullname" class="col-sm-3 col-form-label">Name:</label>
+							<div class="col-sm-9">
+								<input type="text" name="name" id="fullname" class="form-control" placeholder="enter full name" required>
+                        </div>
+							</div>
+							<div class="form-group row">
+								<label for="date-of-birth" class="col-sm-3 col-form-label">DOB:</label>
+								<div class="col-sm-9">
+									<input type="date" name="dob" id="date-of-birth" class="form-control" placeholder="enter date of birth" required>
+                        </div>
+								</div>
+								<div class="form-group row">
+									<label for="gp-practice-name" class="col-sm-3 col-form-label">GP Practice Name:</label>
+									<div class="col-sm-9">
+										<input type="text" name="gp practice name" id="gp-practice-name" class="form-control" required>
+                        </div>
+									</div>
+									<div class="form-group row">
+										<label for="gp-name" class="col-sm-3 col-form-label">GP Name:</label>
+										<div class="col-sm-9">
+											<input type="text" name="gp name" id="gp-name" class="form-control" placeholder="enter GP full name" required>
+                        </div>
+										</div>
+										<div class="form-group row">
+											<label for="date" class="col-sm-3 col-form-label">Date:</label>
+											<div class="col-sm-9">
+												<input type="date" name="date" id="date" class="form-control" required>
+                        </div>
+											</div>
+											<div class="form-group row">
+												<label for="time" class="col-sm-3 col-form-label">Time:</label>
+												<div class="col-sm-9">
+													<input type="time" name="time" id="time" class="form-control" required>
+                        </div>
+												</div>
+												<div class="row appt-button">
+													<div class="col">
+														<button type="submit" class="btn btn-primary">Submit</button>
+													</div>
+												</div>
+					</form>
+				</div>
 			</div>
-			<div class="center-form">
-				<form>
-					<div class="form-group row">
-						<label for="fullname" class="col-sm-3 col-form-label">Name:</label>
-						<div class="col-sm-9">
-							<input type="text" name="name" id="fullname" class="form-control" placeholder="enter full name" required>
-                        </div>
-					</div>
-					<div class="form-group row">
-						<label for="date-of-birth" class="col-sm-3 col-form-label">DOB:</label>
-						<div class="col-sm-9">
-							<input type="date" name="dob" id="date-of-birth" class="form-control" placeholder="enter date of birth" required>
-                        </div>
-					</div>
-					<div class="form-group row">
-						<label for="gp-practice-name" class="col-sm-3 col-form-label">GP Practice Name:</label>
-						<div class="col-sm-9">
-							<input type="text" name="gp practice name" id="gp-practice-name" class="form-control" required>
-                        </div>
-					</div>
-					<div class="form-group row">
-						<label for="gp-name" class="col-sm-3 col-form-label">GP Name:</label>
-						<div class="col-sm-9">
-	    					<input type="text" name="gp name" id="gp-name" class="form-control" placeholder="enter GP full name" required>
-                        </div>
-					</div>
-					<div class="form-group row">
-						<label for="date" class="col-sm-3 col-form-label">Date:</label>
-						<div class="col-sm-9">
-					    	<input type="date" name="date" id="date" class="form-control" required>
-                        </div>
-					</div>
-					<div class="form-group row">
-                    	<label for="time" class="col-sm-3 col-form-label">Time:</label>
-                        <div class="col-sm-9">
-							<input type="time" name="time" id="time" class="form-control" required>
-                        </div>
-					</div>
-					<div class="row appt-button">
-					    <div class="col">
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
 	</section>
 	<footer class="container-fluid">
 		<div class="row" id="footer-details">
@@ -109,8 +111,8 @@
 				<h6>External Links</h6>
 				<p class="inline-block links footer-links-vertical-rule">
 					<a href="https://www.hia.ie/health-insurance-comparison" target="_blank">HIA</a> |
-                    <a href="https://www.vhi.ie" target="_blank">VHI</a> |
-                    <a href="https://www.irishlifehealth.ie" target="_blank">Irish Life Health</a>
+					<a href="https://www.vhi.ie" target="_blank">VHI</a> |
+					<a href="https://www.irishlifehealth.ie" target="_blank">Irish Life Health</a>
 				</p>
 			</div>
 			<div class="col-sm-4">
@@ -151,4 +153,5 @@
 		</div>
 	</footer>
 </body>
+
 </html>

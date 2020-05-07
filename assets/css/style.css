@@ -128,7 +128,6 @@ footer {
 
 .social-links {
     padding-bottom: 0;
-    padding-left: 20px;
 }
 
 .social-links li a i {
@@ -164,14 +163,7 @@ footer {
     display: inline-block;
     font-weight: 600;
     font-size: 13px;
-    padding-left: 20px;
     color:  rgb(59, 7, 143);
-}
-
-.footer-links-vertical-rule {
-    font-weight: 800;
-    font-size: 13px;
-    color:  rgb(172, 8, 63);
 }
 
 /*-----------------------------------------------Section-Home*/
@@ -261,6 +253,10 @@ footer {
     font-weight: 600;
     font-size: 15px;
     padding: 20px;
+    color:  rgb(59, 7, 143);
+}
+
+.email {
     color:  rgb(59, 7, 143);
 }
 

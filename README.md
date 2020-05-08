@@ -1,7 +1,8 @@
 # User Centric Project BG
 
 'Patient Self-Service' will provide an unique service to patients commencing with two key features - appointments and prescriptions. This website will give patients the flexibility to schedule appointments and order their prescriptions at a time that suits them. Responsive design will allow users use a device of their choice. 
-It will provide a platform to rollout additional enhancements in the near future.  <br/>This project was deployed to the live website using 'GH Pages' - https://gallaghb.github.io/user-centric-project-bg/
+It will provide a platform to rollout additional enhancements in the near future.
+This project was deployed to the live website using 'GH Pages' - https://gallaghb.github.io/user-centric-project-bg/
 
 ## UX
 
@@ -22,7 +23,7 @@ This website is for everyone and especially patients who attend their GP on a re
 - As a Patient, I want to view your website on my laptop/desktop, so that I can use a device of my preference
 
 ### Design
-The following documents were created as part of the design process, see [Design Folder](/https://b5ca6965-e8e0-4e7f-a5ca-47bf5fd928c4.ws-eu01.gitpod.io/#/workspace/user-centric-project-bg/assets/design)
+The following documents were created as part of the design process, see "design" folder
 - High Level Project Plan
 - 5 Planes
 - Prototype Mock Ups
@@ -67,14 +68,14 @@ The following shows additional features to be implemented in the future:
 
 ## Testing
 
-Manual testing was carried out on all scenarios as per my [Test Script](/https://b5ca6965-e8e0-4e7f-a5ca-47bf5fd928c4.ws-eu01.gitpod.io/#/workspace/user-centric-project-bg/assets/design)
+Manual testing was carried out on all scenarios, see "design" folder for 'Test Script'
 
 Testing was carried out after each iteration or sprint and bug defects were fixed and retested. 
 
 HTML files were validated using a [html validator](https://validator.w3.org/) and file indentation was checked using a [html formatter](https://www.freeformatter.com/html-formatter.html)
 CSS file was validated using a [css validator](https://jigsaw.w3.org/css-validator/)
 
-Testing was also carried out in different devices and browsers, see [Test Results]()
+Testing was also carried out in different devices and browsers, see "design" folder for 'Test Results'
 
 1. Header
     1. Logo	Click on logo 
@@ -163,13 +164,20 @@ Testing was also carried out in different devices and browsers, see [Test Result
 This project was developed on GitPod, using git and GitHub to host the repository.
 
 When deploying this project using GitHub Pages be sure to follow these steps:
-
-
-Code will be deployed from GitPod to GitHub using the Git commands of git add / git commit / git push
-     - moving from staging area to local repository to remote repository
-GitHub location - https://github.com/gallaghb/user-centric-project-bg.git
-Code will be deployed to the live website using the publishing source of 'GitHub Pages'
-GitHub Pages location - https://gallaghb.github.io/user-centric-project-bg/
+    1. Navigate to project by [clicking here](https://github.com/gallaghb/user-centric-project-bg/settings)
+    2. In the top navigation, click on 'settings'
+    3. Scroll down to GitHub Pages area
+    4. Select 'master branch'from the source drop down menu
+    5. Click to confirm my selection
+    6. Project should now be live on [GitHub Pages](https://gallaghb.github.io/user-centric-project-bg/)
+    
+In order to run this project locally be sure to follow these steps whilst still on Github: 
+    1. Navigate to project or [click here](https://github.com/gallaghb/user-centric-project-bg/settings)
+    2. Click the green 'Clone or Download' button
+    3. Copy the url in the dropdown box
+    4. Using your IDE of choice open up your preferred terminal
+    5. Navigate to your desired file location
+    6. Copy the following code and input it into your terminal to clone this project, git clone https://github.com/gallaghb/user-centric-project-bg.git
 
 ## Credits
 I was to give credit to my mentor, Precious Ijege for his feedback and support on this project.
@@ -181,6 +189,5 @@ The text was not sourced from any other source or website, it was devised by me
 Logo, Appointment and Prescription Images were sourced from [pexels website](https://www.pexels.com/)
 Icons were sourced from [font awesome website](https://fontawesome.com/icons?d=gallery)
 
-
 ## Acknowledgements
-I received inspiration for the design of this project from 'Module 5 - Sample Projects' 
+I received inspiration for the design of this project from [Module5 - Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/36e3366dbdaf40fd852994c51f9f8595/?child=last) 

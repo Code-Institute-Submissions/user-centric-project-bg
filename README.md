@@ -180,7 +180,7 @@ In order to run this project locally be sure to follow these steps whilst still 
     6. Copy the following code and input it into your terminal to clone this project, git clone https://github.com/gallaghb/user-centric-project-bg.git
 
 ## Credits
-I was to give credit to my mentor, Precious Ijege for his feedback and support on this project.
+I want to give credit to my mentor, Precious Ijege for his feedback and support on this project.
 
 ## Content
 The text was not sourced from any other source or website, it was devised by me

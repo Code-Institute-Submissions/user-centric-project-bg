@@ -67,13 +67,21 @@ The following shows additional features to be implemented in the future:
 
 ## Testing
 
-Manual testing was carried out on all scenarios. The 'Test Script' can be found in the [design](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/design) folder 
-
-Testing was carried out after each iteration or sprint and bug defects were fixed and retested. 
-
 HTML files were validated using a [html validator](https://validator.w3.org/) and file indentation was checked using a [html formatter](https://www.freeformatter.com/html-formatter.html).  CSS file was validated using a [css validator](https://jigsaw.w3.org/css-validator/)
 
-Testing was also carried out in different devices and browsers and the results are saved to the [test summary](https://github.com/gallaghb/user-centric-project-bg/blob/b9be1fdc6ae073b6233995c05fa56f5edac7f267/assets/test-summary)
+Testing was also carried out in different devices and browsers and the results are saved to the [test summary](https://github.com/gallaghb/user-centric-project-bg/blob/master/assets/test-summary/Test%20Results.pdf)
+
+Manual testing was carried out on all scenarios and the Test Script' can be found below and in the [design](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/design) folder. 
+Testing was completed after each iteration and bug defects/layout issues were fixed and retested. Regression Testing was completed prior to project submission.
+
+The iterations were as follows:
+- Iteration 1 - Header
+- Iteration 2 - Navigation / Menu Items
+- Iteration 3 - Footer
+- Iteration 4 - Home Section
+- Iteration 5 - Appointment Section
+- Iteration 6 - Prescription Section
+- Iteration 7 - Contact Us Section
 
 1. Header
     1. Click on logo - logo should ease in and out 

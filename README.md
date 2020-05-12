@@ -73,7 +73,7 @@ Testing was carried out after each iteration or sprint and bug defects were fixe
 
 HTML files were validated using a [html validator](https://validator.w3.org/) and file indentation was checked using a [html formatter](https://www.freeformatter.com/html-formatter.html).  CSS file was validated using a [css validator](https://jigsaw.w3.org/css-validator/)
 
-Testing was also carried out in different devices and browsers, the test summary can be found [here](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/test%20summary)
+Testing was also carried out in different devices and browsers and the results are saved to the [test summary](https://github.com/gallaghb/user-centric-project-bg/blob/b9be1fdc6ae073b6233995c05fa56f5edac7f267/assets/test-summary)
 
 1. Header
     1. Click on logo - logo should ease in and out 
@@ -171,7 +171,7 @@ When deploying this project using GitHub Pages be sure to follow these steps:
 In order to run this project locally be sure to follow these steps whilst still on Github: 
 
 2. GitHub Locally
-    1. Navigate to project or [click here](https://github.com/gallaghb/user-centric-project-bg/settings)
+    1. Navigate to project or [click here](https://https://github.com/gallaghb/user-centric-project-bg/settings)
     2. Click the green 'Clone or Download' button
     3. Copy the url in the dropdown box
     4. Using your IDE of choice open up your preferred terminal
@@ -188,5 +188,4 @@ Logo, Appointment and Prescription Images were sourced from [pexels website](htt
 Icons were sourced from [font awesome website](https://fontawesome.com/icons?d=gallery)
 
 ## Acknowledgements
-I received inspiration for the design of this project from [Module5 - Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/36e3366dbdaf40fd852994c51f9f8595/?child=last) 
-I want to give credit to my mentor, Precious Ijege for his feedback and support on this project.
+I received inspiration for the design of this project from [Module5 - Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/36e3366dbdaf40fd852994c51f9f8595/?child=last). I want to give credit to my mentor, Precious Ijege for his feedback and support on this project.

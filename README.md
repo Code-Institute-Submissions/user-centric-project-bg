@@ -23,12 +23,11 @@ This website is for everyone and especially patients who attend their GP on a re
 - As a Patient, I want to view your website on my laptop/desktop, so that I can use a device of my preference
 
 ### Design
-The following documents were created as part of the design process, see "design" folder
+The following documents were created as part of the [design](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/design) process
 - High Level Project Plan
 - 5 Planes
 - Prototype Mock Ups
 - Test Script
-- Test Results
 
 ## Features
 
@@ -68,55 +67,51 @@ The following shows additional features to be implemented in the future:
 
 ## Testing
 
-Manual testing was carried out on all scenarios, see "design" folder for 'Test Script'
+Manual testing was carried out on all scenarios. The 'Test Script' can be found in the [design](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/design) folder 
 
 Testing was carried out after each iteration or sprint and bug defects were fixed and retested. 
 
-HTML files were validated using a [html validator](https://validator.w3.org/) and file indentation was checked using a [html formatter](https://www.freeformatter.com/html-formatter.html)
-CSS file was validated using a [css validator](https://jigsaw.w3.org/css-validator/)
+HTML files were validated using a [html validator](https://validator.w3.org/) and file indentation was checked using a [html formatter](https://www.freeformatter.com/html-formatter.html).  CSS file was validated using a [css validator](https://jigsaw.w3.org/css-validator/)
 
-Testing was also carried out in different devices and browsers, see "design" folder for 'Test Results'
+Testing was also carried out in different devices and browsers, the test summary can be found [here](https://github.com/gallaghb/user-centric-project-bg/blob/07c8cf346a63946b9cb78ecbc7157d5914016231/assets/test%20summary)
 
 1. Header
-    1. Logo	Click on logo 
-	2. Repeat above test on Page 2
-	3. Repeat above test on Page 3
-	4. Repeat above test on Page 4
+    1. Click on logo - logo should ease in and out 
+	2. Click on Appointment on nav, click on logo - you will be brought back to the home page
+    3. Click on Prescription on nav, click on logo - you will be brought back to the home page
+    4. Click on Contact Us nav, click on logo - you will be brought back to the home page
 2. Nav Items
-    1. Hover over Home 
-	2. Hover over Appointment
-	3. Hover over Prescription
-	4. Hover over Contact Us
-	5. Click on Appointment 
-	6. Click on Home
-	7. Click on Prescription
-	8. Click on Home
-	9. Click on Contact Us
-	10. Check content + spellings
-	11. Repeat above test on Page 2
-	12. Repeat above test on Page 3
-	13. Repeat above test on Page 4
+    1. Hover over Home - home button changes colour
+	2. Hover over Appointment - appointment button changes colour
+	3. Hover over Prescription - prescription button changes colour
+	4. Hover over Contact Us - contact us button changes colour
+	5. Click on Appointment - appointment page opens 
+	6. Then Click on Home - home page opens
+	7. Click on Prescription - prescription page opens
+	8. Then Click on Home - home page opens 
+	9. Click on Contact Us - contact us page opens
+	10. Check content + spellings on all pages 
 3. Footer
-    1. External Links	Click on HIA link
-	2. Click on Irish Life Health link
-	3. Click on VHI
-	4. Social Media	Click on Facebook
-	5. Click on Twitter
-	6. Click on LinkedIn
-	7. Click on Pinterest
-	8. Click on Instagram
-	9. Click on YouTube
+    1. External Links, click on HIA link - HIA website opens in a seperate browser
+	2. Click on Irish Life Health link - Irish Life Health website opens in a separate browser
+	3. Click on VHI link - VHI website opens in a separate browser
+	4. Social Media, click on Facebook - Facebook website will open in a separate browser
+	5. Click on Twitter - Twitter website will open in a separate browser
+	6. Click on LinkedIn - LinkedIn website will open in a separate browser
+	7. Click on Pinterest - Pinterest website will open in a separate browser
+	8. Click on Instagram - Instagram website will open in a separate browser
+	9. Click on YouTube - YouTube website will open in a separate browser
 	10. Check content + spellings
-	11. Repeat above test on Page 2
-	12. Repeat above test on Page 3
-	13. Repeat above test on Page 4
-4. Mid-Area Page 1	Center-Home	
+	11. Repeat above tests on Appointment Page
+	12. Repeat above tests on Prescription Page
+	13. Repeat above tests on Contact Us Page
+4. Home Section
     1. About Us! - check content + spelling
 	2. Self-Service - check content + spelling
 	3. Prescription - check content + spelling
 	4. Appointment - check content + spelling
-5. Mid-Area Page 2	Center-Appointment
-	1. Check Appointment Image
+5. Appointment Section
+	1. Check Appointment Image 
 	2. Check content + spellings
 	3. Input full name
 	4. Input DOB
@@ -124,10 +119,10 @@ Testing was also carried out in different devices and browsers, see "design" fol
 	6. Input GP Name
 	7. Select Date from drop down
 	8. Select Time from drop down
-	9. Do not enter details in 'required' fields
-	10. Hover over Submit button
-	11. Click on Submit button
-6. Mid-Area Page 3	Center-Prescription
+	9. Do not enter details in 'required' fields - error messages received
+	10. Hover over Submit button - button changes colour
+	11. Click on Submit button - blank form appears
+6. Prescription Section
     1. Check Prescription Image
 	2. Check content + spellings
 	3. Input full name
@@ -135,19 +130,19 @@ Testing was also carried out in different devices and browsers, see "design" fol
 	5. Input GP Practice Name
 	6. Input GP Name
 	7. Select frequency from drop down
-	8. Do not enter details in 'required' fields
-	9. Hover over Order Now button
-	10. Click on Order Now button
-7. Mid-Area Page 4	Center-Contact Us
+	8. Do not enter details in 'required' fields - error messages received
+	9. Hover over Order Now button - button changes colour
+	10. Click on Order Now button - blank form appears
+7. Contact Us Section
     1. Reach out section, check content + spellings
 	2. Reach out section, test email
 	3. Input email
 	4. Test email validation
 	5. Input name
 	6. Input message + vary length of message
-	7. Do not enter details in 'required' fields
-	8. Hover over Submit button
-	9. Click on Submit button
+	7. Do not enter details in 'required' fields - error messages received
+	8. Hover over Submit button - button changes colour
+	9. Click on Submit button - blank form appears
 8. User Stories	
     1. Review User Stories to ensure all user expectations are met
 9. Responsive Design
@@ -164,6 +159,8 @@ Testing was also carried out in different devices and browsers, see "design" fol
 This project was developed on GitPod, using git and GitHub to host the repository.
 
 When deploying this project using GitHub Pages be sure to follow these steps:
+
+1. GitHub Pages
     1. Navigate to project by [clicking here](https://github.com/gallaghb/user-centric-project-bg/settings)
     2. In the top navigation, click on 'settings'
     3. Scroll down to GitHub Pages area
@@ -172,6 +169,8 @@ When deploying this project using GitHub Pages be sure to follow these steps:
     6. Project should now be live on [GitHub Pages](https://gallaghb.github.io/user-centric-project-bg/)
     
 In order to run this project locally be sure to follow these steps whilst still on Github: 
+
+2. GitHub Locally
     1. Navigate to project or [click here](https://github.com/gallaghb/user-centric-project-bg/settings)
     2. Click the green 'Clone or Download' button
     3. Copy the url in the dropdown box
@@ -180,7 +179,6 @@ In order to run this project locally be sure to follow these steps whilst still 
     6. Copy the following code and input it into your terminal to clone this project, git clone https://github.com/gallaghb/user-centric-project-bg.git
 
 ## Credits
-I want to give credit to my mentor, Precious Ijege for his feedback and support on this project.
 
 ## Content
 The text was not sourced from any other source or website, it was devised by me
@@ -191,3 +189,4 @@ Icons were sourced from [font awesome website](https://fontawesome.com/icons?d=g
 
 ## Acknowledgements
 I received inspiration for the design of this project from [Module5 - Resume Project](https://courses.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/36e3366dbdaf40fd852994c51f9f8595/?child=last) 
+I want to give credit to my mentor, Precious Ijege for his feedback and support on this project.
